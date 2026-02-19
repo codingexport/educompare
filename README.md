@@ -1,4 +1,6 @@
 # 🎓 Compare Vidya
+![Uploading image.png…]()
+
 
 > Explore, Compare & Choose the Best Online Universities in India
 
