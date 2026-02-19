@@ -1,3 +1,6 @@
+
+
+export const dynamic = "force-dynamic"
 import Navbar from "@/components/Navbar";
 import { connectDB } from "@/lib/db";
 import College from "@/models/College";
