@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { connectDB } from "@/lib/db";
 import College from "@/models/College";
 import Navbar from "@/components/Navbar";
@@ -13,7 +15,6 @@ export default async function ComparePage({
         JSON.stringify(await College.find())
     );
 
-    // ✅ unwrap promise
     const { c1, c2 } = await searchParams;
 
     const college1 = c1 ? await College.findById(c1) : null;
