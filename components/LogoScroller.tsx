@@ -8,7 +8,7 @@ const logos = [
     "/img/jaipurManipalOnline.webp",
     "/img/nmimsOnline.webp",
     "/img/sikkimManipalOnline.webp",
-    "/img/vguOnline.webp",
+    "/img/nmimsOnline.webp",
 ];
 
 export default function LogoScroller() {

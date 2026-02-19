@@ -13,7 +13,7 @@ interface Props {
 export default async function CollegeDetails({ params }: Props) {
     const { id } = await params; // 🔥 THIS IS THE FIX
 
-    await connectDB();
+    const colleges = await College.find();
 
     const college = await College.findById(id);
 
