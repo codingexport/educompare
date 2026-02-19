@@ -118,9 +118,9 @@ export default function Navbar() {
                     style={{ perspective: 1000 }}
                 >
                     {[
-                        { name: "Blogs", link: "/blogs" },
-                        { name: "Explore Program", link: "/programs" },
+                        { name: "colleges", link: "/colleges" },
                         { name: "Compare Universities", link: "/compare" },
+                        { name: "Explore Program", link: "/programs" },
                         { name: "Apply Now", link: "/admin" },
                     ].map((itemData, index) => (
                         <motion.a
