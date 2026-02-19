@@ -1,5 +1,6 @@
 # 🎓 Compare Vidya
-![Uploading image.png…]()
+<img width="1574" height="774" alt="image" src="https://github.com/user-attachments/assets/94e02e86-5910-445c-86f5-8bef0ebf9322" />
+
 
 
 > Explore, Compare & Choose the Best Online Universities in India
