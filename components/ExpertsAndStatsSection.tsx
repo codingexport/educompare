@@ -7,7 +7,7 @@ const experts = [
     { name: "Palak", img: "/img/palak.webp" },
     { name: "Harshita", img: "/img/harshita.webp" },
     { name: "Rashmi", img: "/img/rashmi.webp" },
-    { name: "Rishita", img: "/img/harshita.webp" },
+    { name: "Abhishek", img: "/img/harshita.webp" },
     { name: "Abhishek", img: "/img/abhishek.webp" },
 ];
 
