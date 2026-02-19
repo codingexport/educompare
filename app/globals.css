@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
   --background: #ffffff;
@@ -17,6 +18,43 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+  @keyframes scroll {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-50%);
+          }
+        }
+
+        .animate-scroll {
+          animation: scroll 25s linear infinite;
+        }
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
+@keyframes studentScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-student-scroll {
+  animation: studentScroll 25s linear infinite;
 }
 
 body {

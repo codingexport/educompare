@@ -28,6 +28,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+          <button className="bg-blue-600 text-white px-5 py-3 rounded-full shadow-lg hover:bg-blue-700">
+            📞 Talk to Expert
+          </button>
+
+          <button className="bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:bg-green-600">
+            💬 Chat with Us
+          </button>
+        </div>
+
       </body>
     </html>
   );

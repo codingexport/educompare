@@ -1,4 +1,17 @@
 import Navbar from "../components/Navbar";
+import ExploreSection from "@/components/ExploreSection";
+import HeroSlider from "@/components/HeroSlider";
+import LogoScroller from "@/components/LogoScroller";
+import PGCoursesSection from "@/components/PgCourseSection";
+import AddmissionProssec from "@/components/AddmissionProssec";
+import NotableMoments from "@/components/NoteableMoments";
+import ExpertMentors from "@/components/ExpertMentors";
+import ExploreUniversitiesSection from "@/components/ExploreUniversitiesSection";
+import AutoScrollStudents from "@/components/AutoScrollStudents";
+import ExpertsAndStatsSection from "@/components/ExpertsAndStatsSection";
+import WhyTrustSection from "@/components/WhyTrustSection";
+import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
 import { connectDB } from "../lib/db";
 
 export default async function Home() {
@@ -6,27 +19,19 @@ export default async function Home() {
   return (
     <div>
       <Navbar />
-
-      <section className="min-h-screen bg-blue-50 flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-5xl font-bold text-blue-700 mb-6">
-          Compare Top Colleges in India
-        </h1>
-
-        <p className="text-gray-600 text-lg mb-8">
-          Find fees, ratings & courses easily
-        </p>
-
-        <div className="flex w-full max-w-xl">
-          <input
-            type="text"
-            placeholder="Search colleges..."
-            className="flex-1 text-black p-3 rounded-l-lg border border-gray-300 focus:outline-none"
-          />
-          <button className="bg-blue-600 text-white px-6 rounded-r-lg hover:bg-blue-700">
-            Search
-          </button>
-        </div>
-      </section>
+      <HeroSlider />
+      <ExploreSection />
+      <LogoScroller />
+      <PGCoursesSection />
+      <AddmissionProssec />
+      <NotableMoments />
+      <ExpertMentors />
+      <ExploreUniversitiesSection />
+      <AutoScrollStudents />
+      <ExpertsAndStatsSection />
+      <WhyTrustSection />
+      <FAQSection />
+      <Footer />
     </div>
   );
 }
