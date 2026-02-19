@@ -1,36 +1,232 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Compare Vidya
 
-## Getting Started
+> Explore, Compare & Choose the Best Online Universities in India
 
-First, run the development server:
+Compare Vidya is a full-stack web application built using **Next.js (App Router)** and **MongoDB Atlas**, designed to help students explore and compare online and distance universities across India.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Tech Stack
+
+### 🖥 Frontend
+- Next.js 14+ (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- DaisyUI
+- Framer Motion
+- Lucide React Icons
+
+### 🗄 Backend
+- Next.js API Routes
+- MongoDB Atlas
+- Mongoose
+
+---
+
+## ✨ Features Implemented
+
+### 🔐 Database Integration
+- MongoDB Atlas connection
+- Environment variable setup (`.env.local`)
+- Mongoose models
+- API routes for seeding data
+
+---
+
+### 🏫 Colleges Module
+- Dynamic college listing page
+- Dynamic `[id]` routing
+- College detail page (`findById`)
+- Compare colleges feature
+- Real-time database fetching
+
+---
+
+### 🎓 Courses Section
+- PG Courses layout
+- MongoDB Course model
+- Sidebar navigation
+- Animated course cards
+- Responsive grid system
+
+---
+
+### 🎞 Hero Section
+- Auto image slider
+- Smooth fade animation
+- Dark overlay
+- Fully responsive
+
+---
+
+### 🏫 Logo Auto Scroller
+- Infinite horizontal scroll
+- Gradient fade edges
+- Smooth CSS animation
+
+---
+
+### 👨‍🏫 Expert Mentors Section
+- Mentor cards
+- Rating badges
+- Arrow navigation
+- Carousel layout
+
+---
+
+### 📊 Animated Stats Section
+- Auto counter animation on load
+- Students enrolled
+- Academic partners
+- Salary package stats
+- Alumni network
+
+---
+
+### 📈 Progress Bar Section
+- Student satisfaction
+- Enrollment growth
+- Application accuracy
+- Animated progress bars
+
+---
+
+### ❓ FAQ Section
+- Accordion layout
+- Expand / collapse animation
+- Plus / Minus toggle
+
+---
+
+### 📞 Talk to Experts Section
+- Contact information
+- Expert profiles
+- Call-to-action button
+
+---
+
+### 🏢 Universities Grid
+- University cards
+- Course count display
+- Hover animations
+- View All button
+
+---
+
+### 🌟 Why Students Trust Us
+- Feature cards
+- Border hover animation
+- Clean responsive layout
+
+---
+
+### 📱 Responsive Navbar
+- Desktop navigation
+- Mobile hamburger menu
+- Slide-in drawer
+- Animated dropdown
+- AI-powered gradient pill
+
+---
+
+### 🎬 Student Auto Scroll Section
+- Infinite image scrolling
+- Gradient masking
+- Dark themed layout
+
+---
+
+### 📦 Footer
+- Course categories
+- About section
+- Contact info
+- Social links
+- No-cost call badge
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+  api/
+  colleges/
+    [id]/
+  compare/
+components/
+lib/
+models/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file:
 
-## Learn More
+```
+MONGO_URI=your_mongodb_connection_string
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Installation & Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git clone https://github.com/yourusername/comparevidya.git
+cd comparevidya
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📡 Database Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Create MongoDB Atlas cluster  
+2. Whitelist IP  
+3. Create database user  
+4. Add connection string to `.env.local`  
+5. Run seed routes:
+
+```
+/api/seed
+/api/seed-courses
+```
+
+---
+
+## 🎯 What We Achieved
+
+- Full-stack application
+- Real database integration
+- Dynamic routing
+- Modern UI design
+- Production-ready layout
+- Responsive design
+- Clean scalable architecture
+
+---
+
+## 🚀 Future Improvements
+
+- Authentication (JWT)
+- Admin dashboard
+- Payment integration
+- Advanced filtering
+- Search system
+- Deployment on Vercel
+
+---
+
+## 👨‍💻 Developed By
+
+**Akhil**  
+Full Stack Developer  
+Built using Next.js + MongoDB Atlas
+
+---
+
+⭐ If you like this project, give it a star!
