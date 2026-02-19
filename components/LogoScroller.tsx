@@ -28,7 +28,7 @@ export default function LogoScroller() {
                     {[...logos, ...logos].map((logo, index) => (
                         <div
                             key={index}
-                            className="bg-white rounded-[20px] shadow-2xl px-2 py-2 flex items-center justify-center min-w-[220px]"
+                            className="bg-white rounded-[20px] shadow-2xl px-2 py-2 flex items-center justify-center "
                         >
                             <Image
                                 src={logo}

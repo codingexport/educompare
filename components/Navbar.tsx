@@ -65,7 +65,7 @@ export default function Navbar() {
                     <a
                         href="/ai"
                         className="flex items-center gap-2 px-5 py-2 rounded-full
-            bg-gradient-to-r from-orange-100 to-purple-100
+             from-orange-100 to-purple-100
             text-sm font-medium text-gray-700
             hover:scale-105 transition-all duration-300"
                     >
@@ -138,7 +138,7 @@ export default function Navbar() {
                         href="/ai"
                         variants={item}
                         className="flex items-center justify-center gap-2 px-4 py-2 rounded-full
-              bg-gradient-to-r from-orange-100 to-purple-100
+              from-orange-100 to-purple-100
               text-sm font-medium text-gray-700"
                     >
                         ⚡ AI-Powered 🤖 EduVision AI

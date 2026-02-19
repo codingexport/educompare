@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AdmissionProcess() {
     return (
-        <section className="py-16 bg-gradient-to-b from-white to-gray-50">
+        <section className="py-16 bg-white from-white to-gray-50">
             <div className="max-w-6xl mx-auto px-4 text-center">
 
                 {/* Heading */}

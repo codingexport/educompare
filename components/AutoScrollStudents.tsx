@@ -47,7 +47,7 @@ export default function AutoScrollStudents() {
                     {[...students, ...students].map((img, index) => (
                         <div
                             key={index}
-                            className="w-56 h-72 bg-white rounded-xl overflow-hidden shadow-lg flex-shrink-0"
+                            className="w-56 h-72 bg-white rounded-xl overflow-hidden shadow-lg"
                         >
                             <Image
                                 src={img}
